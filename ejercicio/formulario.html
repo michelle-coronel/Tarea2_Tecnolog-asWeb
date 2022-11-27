@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Ejercicio Formulario HTML</title>
 </head>
 <body>
     <header>
-        <time>2022-11-25</time>
+        <time>2022-11-26</time>
         <br>
         <h2> <I> “Cualquier Tecnología  Suficientemente Avanzada Es Equivalente A La Magia”  <br>
             Sir Arthur C. Clarke</I></h2>
@@ -26,13 +26,35 @@
          </nav>
     </header>
     <header>
-        <h1>FORMULARIO</h1>     
+        <h1>FORMULARIO EN LÍNEA</h1>  
+        <h1>Ejercicio Formulario HTML</h1>   
     </header>
 
 
-
-
-
+    <section>
+        <h2><span>Por favor, ingrese los siguientes datos:</span>  </h2>
+        <form action="https://www.utpl.edu.ec/" method="get" target="_blank">
+            <p><label>Ingrese Sus Nombres completos: <input type="text" name="nombrecompleto" autofocus required  placeholder="Ingrese sus nombres"></label></p>
+            <p><label>Ingrese Su Correo Electrónico: <input type="email" name="correo" required placeholder="Ingrese su correo electrónico"></label></p>
+            <p><label>Ingrese Su Página Web  <input type="url" name="paginaweb" placeholder="Ingrese su pagina web"></label></p>
+            <p><label>Ingrese La Fecha De Registro <input type="date" name="fecha_registro"></label></p>
+            <p><label>Ingrese La Hora <input type="time" name="tiempo"></label></p>  
+            <p><label>Ingrese Su Edad: <input type="number" name="edad" min="18" max="65" required placeholder="Edad"></label></p>
+            <p><label>Ingrese Su Contacto <input type="tel" name="telefono" list = "contactos" placeholder="Ingrese su contacto">  
+                <datalist id="contactos">
+                <option value="(07) 4031292">
+                <option value="(03) 4031415">
+                <option value="(04) 2584639"> </datalist> </label></p>
+            <p><label>Seleccione Su Color Preferido <input type="color" name="color_preferido"></label></p>
+            <br>
+            <p><input type="submit" value="Enviar Datos"> <input type="reset" value="Restaurar Formulario"></p>
+                  </form> 
+          </section>
+          <br>
+          <br>
+        <ul>
+            <li><a href="../index.html">VOLVER A PÁGINA PRINCIPAL</a></li>
+        </ul>
 
     <footer>
         <br>
